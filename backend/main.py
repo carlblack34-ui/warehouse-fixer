@@ -1740,7 +1740,7 @@ async def import_initial(file: UploadFile = File(...)) -> Any:
 # -------------------------
 @app.get("/ui", response_class=HTMLResponse)
 def ui_home() -> str:
-    return page_shell("Home", HOME_BODY)
+    return "<h1>HELLO WORKING</h1>"
 
 
 @app.get("/ui/search", response_class=HTMLResponse)
