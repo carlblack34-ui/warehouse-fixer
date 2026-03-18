@@ -12,7 +12,7 @@ from typing import Any, Dict, List, Optional
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 
-APP_TITLE = "Warehouse Fixer"
+APP_TITLE = "LOC8 Hero"
 BASE_DIR = os.path.dirname(__file__)
 DB_FILE = os.environ.get("WAREHOUSE_DB_FILE", os.path.join(BASE_DIR, "warehouse.db"))
 
